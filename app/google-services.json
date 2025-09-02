@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "240128521173",
+    "firebase_url": "https://socialapp-d9381-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "socialapp-d9381",
+    "storage_bucket": "socialapp-d9381.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240128521173:android:ffebc6cbfd761f5a2d835c",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhYGYxPwIZ5VEgIdSjv-iidXA8BbuQFEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

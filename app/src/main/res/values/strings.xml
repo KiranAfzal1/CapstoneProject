@@ -1,0 +1,10 @@
+<resources>
+    <string-array name="priorities">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+    <string name="app_name">Social App</string>
+    <string name="admob_banner_onboarding">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

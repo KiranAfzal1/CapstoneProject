@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base white background -->
+    <item>
+        <color android:color="@android:color/white"/>
+    </item>
+
+    <!-- Top soft wave using rectangle + corners -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#BBDEFB"
+                android:endColor="#E3F2FD"
+                android:angle="270"/>
+            <corners
+                android:bottomLeftRadius="200dp"
+                android:bottomRightRadius="200dp"/>
+        </shape>
+    </item>
+
+    <!-- Bottom soft circle with fixed size -->
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:width="250dp"
+                android:height="250dp"/>
+            <solid android:color="#BBDEFB"/>
+        </shape>
+    </item>
+
+</layer-list>
