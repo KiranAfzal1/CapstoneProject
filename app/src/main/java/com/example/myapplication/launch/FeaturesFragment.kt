@@ -36,7 +36,6 @@ class FeaturesFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Load AdMob banner
         val adRequest = AdRequest.Builder().build()
         binding.adView.loadAd(adRequest)
 
