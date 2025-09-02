@@ -15,6 +15,7 @@ import com.example.myapplication.R
 import com.example.myapplication.SharedPrefManager
 import com.google.android.material.button.MaterialButton
 import com.google.firebase.database.*
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 
 class LoginActivity : AppCompatActivity() {
 
@@ -27,6 +28,7 @@ class LoginActivity : AppCompatActivity() {
     private lateinit var sharedPrefManager: SharedPrefManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        installSplashScreen()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
